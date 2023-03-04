@@ -4,14 +4,14 @@
   | default @import url()
   |============================
 */
-@import url('./css/reset.css');
-@import url('./css/header.css');
-@import url('./css/hero.css');
-@import url('./css/offerings.css');
-@import url('./css/favorites.css');
-@import url('./css/customers.css');
-@import url('./subscribe.css');
-@import url('./css/footer.css');
+@import url('reset.css');
+@import url('header.css');
+@import url('hero.css');
+@import url('offerings.css');
+@import url('favorites.css');
+@import url('customers.css');
+@import url('subscribe.css');
+@import url('footer.css');
 /* --------------colors------------- */
 
 :root {
