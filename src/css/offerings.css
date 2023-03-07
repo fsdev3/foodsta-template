@@ -29,11 +29,10 @@
     display: inline-flex;
     margin-bottom: 20px;
     padding-top: 260px;
-
 }
 
 .apfel {
-    transform: translate(45px, 90px);
+    transform: translate(10px, 100px);
 }
 
 .container-offering-apfel {
@@ -42,6 +41,12 @@
     margin-bottom: 64px;
     display: block;
     position: relative;
+}
+
+.container-offering-second {
+    width: 656px;
+    display: flexbox;
+    margin-left: 90px;
 }
 
 .offering-text {
@@ -58,11 +63,11 @@
     width: 500px;
     flex-direction: flex;
     margin-bottom: 40px;
-    margin-right: 98px;
 }
 
 .offering-second {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .offering-list {
@@ -87,7 +92,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
-
 }
 
 .easy-to-order {
@@ -97,8 +101,6 @@
     font-size: 18px;
     line-height: 140%;
 }
-
-.offering-paragraf2 {}
 
 .offering-button {
     box-sizing: border-box;
@@ -157,23 +159,6 @@
     background-color: var(--accent-color);
 }
 
-
-
-.container-offering-second {
-    width: 656px;
-    display: flexbox;
-
-}
-
-
-.offering-list {}
-
-.offering-link {}
-
-
-.fasest-delivery {}
-
 .offering-paragraf1 {
-
     width: 253px;
 }
