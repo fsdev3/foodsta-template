@@ -1,5 +1,3 @@
-/* -------------offering Olena------------- */
-
 :root {
     --bg-color: #fefefe;
     --second-bg-color: #ffe550;
@@ -74,8 +72,6 @@
     display: flex;
     gap: 67px;
 }
-
-.offering-link1 {}
 
 .fasest-delivery {
     font-family: 'Roboto';
