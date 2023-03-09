@@ -26,7 +26,7 @@
 /* ---------------general------------ */
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   background-color: var(--bg-color);
 }
@@ -53,75 +53,7 @@ body {
   margin: 0 auto;
 }
 
-
-
 /* ----------------header------------- */
-
-.header {
-  box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
-}
-
-.header-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  padding: 10px 0;
-}
-
-.nav {
-  display: flex;
-  gap: 30px;
-  align-items: center;
-}
-
-.nav-list {
-  display: flex;
-  gap: 28px;
-}
-
-.nav-flex {
-  justify-content: flex-end;
-}
-
-.nav-item {
-  font-size: 14px;
-  line-height: 1.14;
-}
-
-.nav-item .link {
-  display: block;
-  padding: 28px 0;
-}
-
-.link.current {
-  color: var(--accent-color);
-  text-decoration: underline;
-}
-
-.btn {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 1.5;
-
-  width: 98px;
-  height: 32px;
-  background-color: var(--accent-color);
-  border-style: none;
-  border-radius: 30px;
-
-  cursor: pointer;
-}
-
-.nav-btn:hover,
-.nav-btn:focus {
-  background-color: var(--second-bg-color);
-}
 
 /* ----------------main------------------- */
 
@@ -177,7 +109,6 @@ body {
 
 /* offering */
 /* -------------offering Olena------------- */
-
 
 /* favorites */
 

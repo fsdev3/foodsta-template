@@ -1,20 +1,56 @@
 <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-    <h2>
-      Lorem ipsum dolor sit amet awefweF consectetur, adipisicing elit. Impedit
-      excepturi, aspernatur quam odio non, earum dolor eligendi voluptatem ullam
-      nemo nobis provident? Aperiam eligendi laudantium eius! Nulla similique
-      expedita illum!
-    </h2>
-    <p>Hello</p>
-  </nav>
+  <div class="container header-flex">
+    <a class="logo" href="./index.html">
+      <svg class="icon-gg_menu" width="66" height="52">
+        <use href="./img/sprite.svg#icon-logo"></use>
+      </svg>
+    </a>
+    <div class="nav-flex">
+      <nav class="nav">
+        <ul class="nav-list list">
+          <li class="nav-item">
+            <a class="link current" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item"><a class="link" href="#About">About</a></li>
+          <li class="nav-item">
+            <a class="link" href="#Service">Service</a>
+          </li>
+          <li class="nav-item"><a class="link" href="#Menu">Menu</a></li>
+          <li class="nav-item">
+            <a class="link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+        <button class="nav-btn btn" type="button" data-modal-open>
+          Order Now
+        </button>
+      </nav>
+    </div>
+    <div class="menu-pos">
+      <div class="menu" data-menu-open>
+        <svg width="28" height="28">
+          <use href="./img/sprite.svg#icon-green_menu"></use>
+        </svg>
+      </div>
+      <div class="menu-on is-hidden" data-menu>
+        <button class="munu-off-btn" type="button" data-menu-close>
+          <svg class="icon-modal-close-btn" width="11" hight="11">
+            <use href="./img/icon.svg#icon-modal-close-btn"></use>
+          </svg>
+        </button>
+        <ul class="menu-list list">
+          <li>
+            <a class="link" href="./index.html">Home</a>
+          </li>
+          <li><a class="link" href="#About">About</a></li>
+          <li>
+            <a class="link" href="#Service">Service</a>
+          </li>
+          <li><a class="link" href="#Menu">Menu</a></li>
+          <li>
+            <a class="link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </header>
