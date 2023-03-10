@@ -12,7 +12,7 @@
     height: 824px;
     display: flex;
     padding-top: 0px;
-    background-image: url(../img/offerings/img/backgraund-adapt.png);
+    background-image: url(../img/offerings/backgraund-adapt.png);
     background-size: cover;
     position: relative;
 }
@@ -136,6 +136,7 @@
 
 .svg-icon {
     fill: var(--extra-color);
+
 }
 
 .svg-icon:hover,
