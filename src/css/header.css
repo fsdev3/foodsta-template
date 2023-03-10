@@ -1,21 +1,162 @@
+/* ----------------header------------- */
+
 .header {
-  padding: 20px 0;
+  padding: 10px 0;
+  box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
 }
 
-.nav-list {
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.menu {
+  position: relative;
+  width: 28px;
+  height: 28px;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.nav-flex {
+  display: none;
+}
+
+/* -------------menu----------  */
+
+.menu-pos {
+  position: relative;
+}
+
+.menu-on {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  top: 25px;
+  right: 0px;
+
+  overflow: hidden;
+
+  width: 130px;
+  height: 255px;
+  background: #fefefe;
+  box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
+  border-radius: 30px 0px 30px 30px;
+}
+
+.menu-list a {
+  display: block;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  padding: 16px 41px 16px 16px;
+}
+
+.menu-list li:focus,
+.menu-list li:active {
+  color: #000;
+  background-color: var(--accent-color);
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.munu-off-btn {
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+
+  width: 24px;
+  height: 24px;
+  background: none;
+  outline: none;
+  border: none;
+
+  cursor: pointer;
+}
+
+/* --------media rules--------  */
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .menu-pos {
+    display: none;
+  }
+
+  .nav-flex {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 28px;
+  }
+
+  .nav-item {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+
+  .nav-item .link {
+    display: block;
+    padding: 20px 0;
+  }
+
+  .nav-item .link:hover,
+  .nav-item .link:focus {
+    color: var(--accent-color);
+  }
+
+  .link.current {
+    color: var(--accent-color);
+    text-decoration: underline;
+  }
+
+  .nav-btn {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: calc(19.5 / 13);
+
+    width: 98px;
+    height: 32px;
+    background-color: var(--accent-color);
+    border-style: none;
+    border-radius: 30px;
+  }
+
+  .nav-btn:hover,
+  .nav-btn:focus {
+    background-color: var(--second-bg-color);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
 }
